@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B603BC175D8232005EABFB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B603BB175D8232005EABFB /* Deck.m */; };
 		A1219AA3175CFF15006A618F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1219AA2175CFF15006A618F /* Foundation.framework */; };
 		A1219AA6175CFF15006A618F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1219AA5175CFF15006A618F /* main.m */; };
 		A1219AAA175CFF15006A618F /* test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1219AA9175CFF15006A618F /* test.1 */; };
 		A1219AB2175CFFC3006A618F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A1219AB1175CFFC3006A618F /* Card.m */; };
-		A1219AB5175D00A9006A618F /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = A1219AB4175D00A9006A618F /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24B603BA175D8232005EABFB /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		24B603BB175D8232005EABFB /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		A1219A9F175CFF15006A618F /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1219AA2175CFF15006A618F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1219AA5175CFF15006A618F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,8 +37,6 @@
 		A1219AA9175CFF15006A618F /* test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = test.1; sourceTree = "<group>"; };
 		A1219AB0175CFFC3006A618F /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		A1219AB1175CFFC3006A618F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		A1219AB3175D00A9006A618F /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = ../Deck.h; sourceTree = "<group>"; };
-		A1219AB4175D00A9006A618F /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = ../Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 		A1219AA4175CFF15006A618F /* test */ = {
 			isa = PBXGroup;
 			children = (
-				A1219AB3175D00A9006A618F /* Deck.h */,
-				A1219AB4175D00A9006A618F /* Deck.m */,
 				A1219AA5175CFF15006A618F /* main.m */,
 				A1219AB0175CFFC3006A618F /* Card.h */,
+				24B603BA175D8232005EABFB /* Deck.h */,
+				24B603BB175D8232005EABFB /* Deck.m */,
 				A1219AB1175CFFC3006A618F /* Card.m */,
 				A1219AA9175CFF15006A618F /* test.1 */,
 				A1219AA7175CFF15006A618F /* Supporting Files */,
@@ -151,7 +151,7 @@
 			files = (
 				A1219AA6175CFF15006A618F /* main.m in Sources */,
 				A1219AB2175CFFC3006A618F /* Card.m in Sources */,
-				A1219AB5175D00A9006A618F /* Deck.m in Sources */,
+				24B603BC175D8232005EABFB /* Deck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
