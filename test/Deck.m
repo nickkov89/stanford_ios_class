@@ -29,11 +29,11 @@
 
 - (Card *)drawRandomCard {
     Card *randomCard = nil;
-    
+
     unsigned index = arc4random() % self.cards.count;
     randomCard = self.cards[index];
     [self.cards removeObjectAtIndex:index];
-    
+
     return randomCard;
 }
 
