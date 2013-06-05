@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Card.h"
 
 @interface Deck : NSObject
+
+@property (nonatomic, strong) NSMutableArray *cards;
+
+- (Card *)drawRandomCard;
 
 @end

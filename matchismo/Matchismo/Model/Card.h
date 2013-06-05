@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Card : NSObject
+@property (nonatomic) NSString *contents;
+
++ (NSArray *)validSuits;
++ (NSArray *)validRanks;
 
 @end
